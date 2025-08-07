@@ -1,6 +1,6 @@
 <mxfile host="app.diagrams.net" agent="Mozilla/5.0 (X11; Linux x86_64; rv:139.0) Gecko/20100101 Firefox/139.0" version="28.0.7" pages="2">
   <diagram name="FlowCHART - Procesos de Funcionamiento del Servicio" id="QC0WpeSIacJcMdu3eHI3">
-    <mxGraphModel dx="1188" dy="658" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1246" dy="683" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -87,7 +87,7 @@
             <mxPoint y="1" as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="vxSObtCiVAilwYHKDoXp-21" value="" style="endArrow=classic;html=1;rounded=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" parent="1" edge="1">
+        <mxCell id="vxSObtCiVAilwYHKDoXp-21" value="" style="endArrow=classic;html=1;rounded=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="1" edge="1" target="l1tuXILQuJIKpenNVEcj-8">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
             <mxPoint x="709.5799999999999" y="470" as="sourcePoint" />
             <mxPoint x="709.5799999999999" y="510" as="targetPoint" />
@@ -105,28 +105,208 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="l1tuXILQuJIKpenNVEcj-1" value="&lt;p data-end=&quot;650&quot; data-start=&quot;622&quot;&gt;&lt;font style=&quot;font-size: 11px;&quot;&gt;¿Cuál es tu nombre completo?&lt;/font&gt;&lt;/p&gt;&lt;p data-end=&quot;675&quot; data-start=&quot;654&quot;&gt;&lt;font style=&quot;font-size: 11px;&quot;&gt;¿Cuántos años tienes?&lt;/font&gt;&lt;/p&gt;&lt;p data-end=&quot;704&quot; data-start=&quot;679&quot;&gt;&lt;font style=&quot;font-size: 11px;&quot;&gt;¿Cuál es tu nacionalidad?&lt;/font&gt;&lt;/p&gt;&lt;p data-end=&quot;777&quot; data-start=&quot;708&quot;&gt;&lt;font style=&quot;font-size: 11px;&quot;&gt;¿Cuál es tu número de documento de identidad (DNI / NIE / pasaporte)?&lt;/font&gt;&lt;/p&gt;&lt;p data-end=&quot;816&quot; data-start=&quot;781&quot;&gt;&lt;font style=&quot;font-size: 11px;&quot;&gt;¿Cuál es tu situación civil actual?&lt;/font&gt;&lt;/p&gt;" style="rounded=0;whiteSpace=wrap;html=1;align=center;" vertex="1" parent="1">
-          <mxGeometry x="250" y="450" width="180" height="190" as="geometry" />
+          <mxGeometry x="250" y="650" width="180" height="190" as="geometry" />
         </mxCell>
         <mxCell id="l1tuXILQuJIKpenNVEcj-2" value="" style="endArrow=classic;html=1;rounded=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="l1tuXILQuJIKpenNVEcj-3" target="l1tuXILQuJIKpenNVEcj-1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="290" y="600" as="sourcePoint" />
-            <mxPoint x="220" y="510" as="targetPoint" />
+            <mxPoint x="290" y="800" as="sourcePoint" />
+            <mxPoint x="220" y="710" as="targetPoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="l1tuXILQuJIKpenNVEcj-3" value="Identificación Básica" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="60" y="505" width="120" height="80" as="geometry" />
+          <mxGeometry x="60" y="705" width="120" height="80" as="geometry" />
         </mxCell>
         <mxCell id="l1tuXILQuJIKpenNVEcj-4" value="&lt;div&gt;&lt;font style=&quot;font-size: 8px;&quot;&gt;&lt;br&gt;&lt;/font&gt;&lt;/div&gt;&lt;div&gt;&lt;font style=&quot;font-size: 8px;&quot;&gt;¿Actualmente tienes trabajo?&lt;/font&gt;&lt;p data-end=&quot;1136&quot; data-start=&quot;1093&quot;&gt;&lt;font style=&quot;font-size: 8px;&quot;&gt;¿Desde cuándo trabajas en tu empleo actual?&lt;/font&gt;&lt;/p&gt;&lt;p data-end=&quot;1216&quot; data-start=&quot;1140&quot;&gt;&lt;font style=&quot;font-size: 8px;&quot;&gt;¿Qué tipo de contrato tienes? (indefinido, temporal, autónomo, sin contrato)&lt;/font&gt;&lt;/p&gt;&lt;p data-end=&quot;1259&quot; data-start=&quot;1220&quot;&gt;&lt;font style=&quot;font-size: 8px;&quot;&gt;¿Cuál es tu ingreso mensual aproximado?&lt;/font&gt;&lt;/p&gt;&lt;p data-end=&quot;1327&quot; data-start=&quot;1264&quot;&gt;&lt;font style=&quot;font-size: 8px;&quot;&gt;¿Tienes otras fuentes de ingreso? (pensión, beca, ayudas, etc.)&lt;/font&gt;&lt;/p&gt;&lt;p data-end=&quot;1380&quot; data-start=&quot;1332&quot;&gt;&lt;font style=&quot;font-size: 8px;&quot;&gt;¿Tienes algún ahorro o colchón económico actual?&lt;/font&gt;&lt;/p&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;align=center;" vertex="1" parent="1">
-          <mxGeometry x="250" y="650" width="180" height="190" as="geometry" />
+          <mxGeometry x="250" y="850" width="180" height="190" as="geometry" />
         </mxCell>
         <mxCell id="l1tuXILQuJIKpenNVEcj-5" value="Situación Laboral y Económica" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="60" y="705" width="120" height="80" as="geometry" />
+          <mxGeometry x="60" y="905" width="120" height="80" as="geometry" />
         </mxCell>
         <mxCell id="l1tuXILQuJIKpenNVEcj-6" value="" style="endArrow=classic;html=1;rounded=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="l1tuXILQuJIKpenNVEcj-3" target="l1tuXILQuJIKpenNVEcj-5">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="160" y="610" as="sourcePoint" />
-            <mxPoint x="230" y="610" as="targetPoint" />
+            <mxPoint x="160" y="810" as="sourcePoint" />
+            <mxPoint x="230" y="810" as="targetPoint" />
           </mxGeometry>
+        </mxCell>
+        <mxCell id="l1tuXILQuJIKpenNVEcj-7" value="" style="endArrow=classic;html=1;rounded=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="l1tuXILQuJIKpenNVEcj-5" target="l1tuXILQuJIKpenNVEcj-4">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="210" y="740" as="sourcePoint" />
+            <mxPoint x="280" y="740" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="l1tuXILQuJIKpenNVEcj-8" value="Selección del Expediente" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="650" y="515" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="l1tuXILQuJIKpenNVEcj-11" value="" style="endArrow=classic;html=1;rounded=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="l1tuXILQuJIKpenNVEcj-8">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="709.58" y="575" as="sourcePoint" />
+            <mxPoint x="709.9999999999998" y="620" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="l1tuXILQuJIKpenNVEcj-12" value="&lt;div&gt;SI&lt;/div&gt;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="l1tuXILQuJIKpenNVEcj-11">
+          <mxGeometry x="0.2733" relative="1" as="geometry">
+            <mxPoint y="-6" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="l1tuXILQuJIKpenNVEcj-13" value="&lt;div&gt;&lt;p data-end=&quot;1594&quot; data-start=&quot;1556&quot;&gt;¿Has alquilado vivienda anteriormente?&lt;/p&gt;&lt;p data-end=&quot;1648&quot; data-start=&quot;1599&quot;&gt;¿Por cuánto tiempo viviste en tu último alquiler?&lt;/p&gt;&lt;p data-end=&quot;1710&quot; data-start=&quot;1653&quot;&gt;¿Tuviste algún inconveniente con el propietario anterior?&lt;/p&gt;¿Puedes aportar referencias o datos de contacto de anteriores arrendadores?&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;align=center;" vertex="1" parent="1">
+          <mxGeometry x="250" y="1050" width="180" height="190" as="geometry" />
+        </mxCell>
+        <mxCell id="l1tuXILQuJIKpenNVEcj-14" value="Historial de Alquiler" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="60" y="1105" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="l1tuXILQuJIKpenNVEcj-15" value="" style="endArrow=classic;html=1;rounded=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="l1tuXILQuJIKpenNVEcj-14" target="l1tuXILQuJIKpenNVEcj-13">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="170" y="1105" as="sourcePoint" />
+            <mxPoint x="240" y="1105" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="l1tuXILQuJIKpenNVEcj-16" value="" style="endArrow=classic;html=1;rounded=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="l1tuXILQuJIKpenNVEcj-5" target="l1tuXILQuJIKpenNVEcj-14">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="140" y="840" as="sourcePoint" />
+            <mxPoint x="140" y="960" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="l1tuXILQuJIKpenNVEcj-17" value="&lt;div&gt;&lt;font style=&quot;font-size: 8px;&quot;&gt;¿Cuál es el motivo por el que cambias de vivienda?&lt;/font&gt;&lt;/div&gt;&lt;div&gt;&lt;font style=&quot;font-size: 8px;&quot;&gt;¿Cuántas personas vivirán contigo?&lt;/font&gt;&lt;/div&gt;&lt;p data-end=&quot;2143&quot; data-start=&quot;2126&quot;&gt;&lt;font style=&quot;font-size: 8px;&quot;&gt;¿Tienes mascotas?&lt;/font&gt;&lt;/p&gt;&lt;p data-end=&quot;2170&quot; data-start=&quot;2148&quot;&gt;&lt;font style=&quot;font-size: 8px;&quot;&gt;¿Fumas dentro de casa?&lt;/font&gt;&lt;/p&gt;&lt;p data-end=&quot;2227&quot; data-start=&quot;2175&quot;&gt;&lt;font style=&quot;font-size: 8px;&quot;&gt;¿Durante cuánto tiempo planeas alquilar la vivienda?&lt;/font&gt;&lt;/p&gt;&lt;p data-end=&quot;2314&quot; data-start=&quot;2232&quot;&gt;&lt;font style=&quot;font-size: 8px;&quot;&gt;¿Aceptas firmar un contrato con condiciones, fianza y fecha de salida predefinida?&lt;/font&gt;&lt;/p&gt;" style="rounded=0;whiteSpace=wrap;html=1;align=center;" vertex="1" parent="1">
+          <mxGeometry x="250" y="1250" width="180" height="190" as="geometry" />
+        </mxCell>
+        <mxCell id="l1tuXILQuJIKpenNVEcj-18" value="Perfil de Convivencia y Conducta" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="60" y="1305" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="l1tuXILQuJIKpenNVEcj-19" value="" style="endArrow=classic;html=1;rounded=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="l1tuXILQuJIKpenNVEcj-14" target="l1tuXILQuJIKpenNVEcj-18">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="110" y="1060" as="sourcePoint" />
+            <mxPoint x="110" y="1180" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="l1tuXILQuJIKpenNVEcj-20" value="" style="endArrow=classic;html=1;rounded=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="l1tuXILQuJIKpenNVEcj-18" target="l1tuXILQuJIKpenNVEcj-17">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="200" y="1140" as="sourcePoint" />
+            <mxPoint x="270" y="1140" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="l1tuXILQuJIKpenNVEcj-21" value="&lt;div style=&quot;line-height: 90%;&quot;&gt;&lt;div&gt;&lt;p data-end=&quot;2537&quot; data-start=&quot;2492&quot;&gt;&lt;font style=&quot;line-height: 90%;&quot;&gt;¿Puedes aportar los siguientes documentos?:&lt;/font&gt;&lt;/p&gt;&lt;/div&gt;&lt;div&gt;&lt;ol&gt;&lt;li&gt;&lt;font style=&quot;line-height: 90%;&quot;&gt;DNI / NIE&lt;/font&gt;&lt;/li&gt;&lt;li&gt;&lt;font style=&quot;line-height: 90%;&quot;&gt;Justificante de pago de último alquiler (si aplica)&lt;/font&gt;&lt;/li&gt;&lt;li&gt;&lt;font style=&quot;line-height: 90%;&quot;&gt;Últimas 3 nóminas o certificado de ingresos&lt;/font&gt;&lt;/li&gt;&lt;li data-end=&quot;2632&quot; data-start=&quot;2614&quot;&gt;&lt;font style=&quot;line-height: 90%;&quot;&gt;Contrato laboral&lt;/font&gt;&lt;/li&gt;&lt;/ol&gt;&lt;/div&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;align=center;" vertex="1" parent="1">
+          <mxGeometry x="250" y="1450" width="180" height="190" as="geometry" />
+        </mxCell>
+        <mxCell id="l1tuXILQuJIKpenNVEcj-22" value="Disposición Documental" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="60" y="1505" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="l1tuXILQuJIKpenNVEcj-23" value="" style="endArrow=classic;html=1;rounded=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="l1tuXILQuJIKpenNVEcj-18" target="l1tuXILQuJIKpenNVEcj-22">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="200" y="1410" as="sourcePoint" />
+            <mxPoint x="200" y="1530" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="l1tuXILQuJIKpenNVEcj-24" value="" style="endArrow=classic;html=1;rounded=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="l1tuXILQuJIKpenNVEcj-22" target="l1tuXILQuJIKpenNVEcj-21">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="210" y="1400" as="sourcePoint" />
+            <mxPoint x="280" y="1400" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="l1tuXILQuJIKpenNVEcj-25" value="Autorización del Uso de Datos Firmado" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="60" y="510" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="l1tuXILQuJIKpenNVEcj-26" value="" style="endArrow=classic;html=1;rounded=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="l1tuXILQuJIKpenNVEcj-25" target="l1tuXILQuJIKpenNVEcj-3">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="230" y="600" as="sourcePoint" />
+            <mxPoint x="230" y="720" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="l1tuXILQuJIKpenNVEcj-27" value="" style="endArrow=classic;html=1;rounded=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=-0.004;entryY=0.526;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="l1tuXILQuJIKpenNVEcj-25" target="l1tuXILQuJIKpenNVEcj-28">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="230" y="570" as="sourcePoint" />
+            <mxPoint x="220" y="530" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="l1tuXILQuJIKpenNVEcj-28" value="&lt;div style=&quot;line-height: 90%;&quot;&gt;&lt;div&gt;&lt;p data-end=&quot;2792&quot; data-start=&quot;2696&quot;&gt;&lt;font style=&quot;font-size: 11px; line-height: 90%;&quot;&gt;¿Autorizas que tu perfil y esta evaluación se almacenen para futuras consultas por propietarios?&lt;/font&gt;&lt;/p&gt;&lt;/div&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;align=center;" vertex="1" parent="1">
+          <mxGeometry x="250" y="450" width="180" height="190" as="geometry" />
+        </mxCell>
+        <mxCell id="l1tuXILQuJIKpenNVEcj-29" value="" style="endArrow=none;html=1;rounded=0;endFill=0;exitX=1.004;exitY=0.526;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1" source="l1tuXILQuJIKpenNVEcj-28">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="460" y="580" as="sourcePoint" />
+            <mxPoint x="480" y="550" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="l1tuXILQuJIKpenNVEcj-30" value="" style="endArrow=classic;html=1;rounded=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" target="vxSObtCiVAilwYHKDoXp-12">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="480" y="550" as="sourcePoint" />
+            <mxPoint x="480" y="410" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="480" y="410" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="l1tuXILQuJIKpenNVEcj-31" value="NO" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="l1tuXILQuJIKpenNVEcj-30">
+          <mxGeometry x="-0.3605" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="l1tuXILQuJIKpenNVEcj-32" value="" style="endArrow=classic;html=1;rounded=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="480" y="550" as="sourcePoint" />
+            <mxPoint x="520" y="580" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="520" y="550" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="l1tuXILQuJIKpenNVEcj-34" value="SI" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="l1tuXILQuJIKpenNVEcj-32">
+          <mxGeometry x="-0.2785" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="l1tuXILQuJIKpenNVEcj-36" value="&lt;div style=&quot;line-height: 110%;&quot;&gt;&lt;font&gt;El potencial arrendatario pone su nombre completo y firma&lt;/font&gt;&lt;/div&gt;" style="shape=process;whiteSpace=wrap;html=1;backgroundOutline=1;" vertex="1" parent="1">
+          <mxGeometry x="460" y="580" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="l1tuXILQuJIKpenNVEcj-37" value="" style="endArrow=classic;html=1;rounded=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="119.28999999999999" y="1585" as="sourcePoint" />
+            <mxPoint x="119.28999999999999" y="1705" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="l1tuXILQuJIKpenNVEcj-38" value="&lt;div&gt;Subida de&lt;/div&gt;&lt;div&gt;Archivos&lt;/div&gt;" style="ellipse;shape=cloud;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="60" y="1700" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="l1tuXILQuJIKpenNVEcj-39" value="" style="endArrow=classic;html=1;rounded=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" target="l1tuXILQuJIKpenNVEcj-40">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="180" y="1739.29" as="sourcePoint" />
+            <mxPoint x="250" y="1739.29" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="l1tuXILQuJIKpenNVEcj-40" value="&lt;div&gt;Revisión de&lt;/div&gt;&lt;div&gt;Documentación y&lt;/div&gt;&lt;div&gt;SCORING&lt;/div&gt;" style="shape=process;whiteSpace=wrap;html=1;backgroundOutline=1;" vertex="1" parent="1">
+          <mxGeometry x="280" y="1710" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="l1tuXILQuJIKpenNVEcj-41" value="" style="endArrow=classic;html=1;rounded=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="400" y="1740" as="sourcePoint" />
+            <mxPoint x="500" y="1740.71" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="l1tuXILQuJIKpenNVEcj-42" value="MOSTRAR EL RESULTADO" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="500" y="1710" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="l1tuXILQuJIKpenNVEcj-43" value="MOSTRAR EXPEDIENTE" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="650" y="620" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="l1tuXILQuJIKpenNVEcj-44" value="" style="endArrow=classic;html=1;rounded=0;dashed=1;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="450" y="1740" as="sourcePoint" />
+            <mxPoint x="450" y="1800" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="l1tuXILQuJIKpenNVEcj-45" value="GUARDA EL EXPEDIENTE" style="shape=process;whiteSpace=wrap;html=1;backgroundOutline=1;" vertex="1" parent="1">
+          <mxGeometry x="390" y="1800" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="l1tuXILQuJIKpenNVEcj-46" value="" style="endArrow=classic;html=1;rounded=0;dashed=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="l1tuXILQuJIKpenNVEcj-45">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="650" y="1780" as="sourcePoint" />
+            <mxPoint x="340" y="1860" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="340" y="1830" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="l1tuXILQuJIKpenNVEcj-47" value="&lt;div&gt;GUARDA COPIA&lt;/div&gt;&lt;div&gt;EN NUESTRA&lt;/div&gt;&lt;div&gt;BASE DE DATOS&lt;/div&gt;" style="ellipse;shape=cloud;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="260" y="1850" width="160" height="120" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
